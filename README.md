@@ -2,21 +2,21 @@
 
 Simple application skeleton for a web app powered by TypeScript.
 
-### Install dependencies with a package-manager of your choice
+### Install dependencies
 ```
-yarn install
+npm install
 ```
 
 ### Start app
 Starts a dev-server with live-reload running at http://localhost:8080/
 ```
-yarn start
+npm run start
 ```
 
 ### Build app
 Build production-ready app sources
 ```
-yarn build
+npm run build
 ```
 
 ### Code-Style
@@ -24,12 +24,12 @@ This setup uses TSLint for code-style-checking and prettier for code-formatting.
 
 #### Check
 ```
-yarn tslint
+npm run tslint
 ```
 
 #### Fix autofixable code
 ```
-yarn tslint --fix
+npm run tslint --fix
 ```
 
 #### TSLint IDE Support
